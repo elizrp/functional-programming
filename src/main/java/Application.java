@@ -13,7 +13,7 @@ public class Application {
     }
 
     public static void main(String[] args) {
-//        System.out.println(reverseString());
+        System.out.println(reverseString());
         System.out.println(countNumbersGreaterThan(19));
     }
 
@@ -32,9 +32,8 @@ public class Application {
     }
 
     /**
-     * Prints the count of numbers greater (less) than a certain number.
+     * Prints the count of numbers greater than a certain number in a list.
      * Uses local variable syntax for lambda parameters.
-     * TODO: make it for 'less' as well.
      *
      * @param number the number to compare to
      * @return the count of numbers in the list that satisfy the condition
